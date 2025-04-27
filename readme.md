@@ -1,0 +1,1 @@
+esta sera una tienda de auriculares y terclados gamers
