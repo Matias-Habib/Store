@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Roca Store - Tienda Gamer</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img
+          src="img/logos/Roca Store.png"
+          alt="Logo de Roca Store"
+          class="logo"
+        />
+        <h1>Roca Store</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li> 
+          <li><a href="#">Ofertas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>¡Equipate como un PRO!</h1>
+      <p>Teclados y auriculares gamer de alta calidad</p>
+      <a href="#productos" class="btn">Ver productos</a>
+    </section>
+
+    <section id="productos" class="productos">
+      <h2>Auriculares Gamer</h2>
+      <div class="grid">
+        <div class="producto">
+          <img src="img/Auriculares/HyperXCloudFligth.jpeg" alt="Auricular 1" />
+          <h3>HyperX Cloud Flight</h3>
+          <p>$277.000</p>
+          <a href="#" class="btn">Agregar al carrito</a>
+        </div>
+        <div class="producto">
+          <img src="img/Auriculares/Razer Kraken.jpeg" alt="Auricular 2" />
+          <h3>Razer Kraken</h3>
+          <p>$70.000</p>
+          <a href="#" class="btn">Agregar al carrito</a>
+        </div>
+        <div class="producto">
+          <img src="img/Auriculares/RazerBlackV2X.jpeg" alt="Auricular 3" />
+          <h3>Razer Blackshark V2x</h3>
+          <p>$85.000</p>
+          <a href="#" class="btn">Agregar al carrito</a>
+        </div>
+      </div>
+
+      <h2>Teclados Gamer</h2>
+      <div class="grid">
+        <div class="producto">
+          <img src="img/Teclados/redragon kumara.jpeg" alt="Teclado 1" />
+          <h3>RedDragon Kumara</h3>
+          <p>$60.000</p>
+          <a href="#" class="btn">Agregar al carrito</a>
+        </div>
+        <div class="producto">
+          <img src="img/teclado2.jpg" alt="Teclado 2" />
+          <h3>Logitech G413</h3>
+          <p>$85.000</p>
+          <a href="#" class="btn">Agregar al carrito</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contacto">
+      <h2>Contacto</h2>
+      <form action="https://formspree.io/f/xkgbwdon" method="POST" class="formulario-contacto">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo Electrónico</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>📧 contacto@rocastore.com</p>
+      <p>© 2025 Roca Store - Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
